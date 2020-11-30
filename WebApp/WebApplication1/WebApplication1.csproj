@@ -125,7 +125,9 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="isPostBack.aspx" />
     <Content Include="PageLifeCycle.aspx" />
+    <Content Include="PostBackDropDownEx.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -154,9 +156,11 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="ServerControl.aspx" />
     <Content Include="SessionState1.aspx" />
     <Content Include="SessionState2.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="TextBox.aspx" />
     <Content Include="ViewState1.aspx" />
     <Content Include="ViewState2.aspx" />
     <Content Include="ViewState3.aspx" />
@@ -192,6 +196,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="isPostBack.aspx.cs">
+      <DependentUpon>isPostBack.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="isPostBack.aspx.designer.cs">
+      <DependentUpon>isPostBack.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PageLifeCycle.aspx.cs">
       <DependentUpon>PageLifeCycle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -199,7 +210,21 @@
     <Compile Include="PageLifeCycle.aspx.designer.cs">
       <DependentUpon>PageLifeCycle.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PostBackDropDownEx.aspx.cs">
+      <DependentUpon>PostBackDropDownEx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PostBackDropDownEx.aspx.designer.cs">
+      <DependentUpon>PostBackDropDownEx.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerControl.aspx.cs">
+      <DependentUpon>ServerControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServerControl.aspx.designer.cs">
+      <DependentUpon>ServerControl.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SessionState1.aspx.cs">
       <DependentUpon>SessionState1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -227,6 +252,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="TextBox.aspx.cs">
+      <DependentUpon>TextBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TextBox.aspx.designer.cs">
+      <DependentUpon>TextBox.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewState1.aspx.cs">
       <DependentUpon>ViewState1.aspx</DependentUpon>
