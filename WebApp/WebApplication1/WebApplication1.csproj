@@ -105,11 +105,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdoratorControl.aspx" />
+    <Content Include="AdsData.xml" />
     <Content Include="ApplicationState1.aspx" />
     <Content Include="ApplicationState2.aspx" />
     <Content Include="Application_Session_State.aspx" />
     <Content Include="ButtonCommand.aspx" />
     <Content Include="ButtonType.aspx" />
+    <Content Include="CalendarControl.aspx" />
     <Content Include="CascadingDropDownList.aspx" />
     <Content Include="CheckBox.aspx" />
     <Content Include="CheckBox1.aspx" />
@@ -119,12 +122,18 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="ContextHandler1.aspx" />
+    <Content Include="ContextHandler2.aspx" />
+    <Content Include="CrossPagePosting.aspx" />
+    <Content Include="CrossPagePosting1.aspx" />
+    <Content Include="CustomValidator.aspx" />
     <Content Include="DropDown.aspx" />
     <Content Include="DropDownFile.xml" />
     <Content Include="DropDownfromDB.aspx" />
     <Content Include="DropDownFromXML.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="FetchingTextforDropDown.aspx" />
+    <Content Include="FileUpload.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -135,8 +144,27 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="PanelControl.aspx" />
+    <Content Include="PanelControlDynamicallyControl.aspx" />
+    <Content Include="PanelControlNot.aspx" />
+    <Content Include="QueryString1.aspx" />
+    <Content Include="QueryString2.aspx" />
+    <Content Include="RangeValidator.aspx" />
+    <Content Include="RequiredFieldValidator.aspx" />
+    <Content Include="ServerExecute.aspx" />
+    <Content Include="ServerExecute1.aspx" />
+    <Content Include="ServerTransfer.aspx" />
+    <Content Include="ServerTransfer1.aspx" />
+    <Content Include="UseSumitBehaviourProperty.aspx" />
+    <Content Include="ValidationGroup.aspx" />
+    <Content Include="ValidationSummary.aspx" />
+    <Content Include="WizardControl.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Hiddenfield.aspx" />
     <Content Include="isPostBack.aspx" />
+    <Content Include="ListBox.aspx" />
+    <Content Include="ListControl.aspx" />
+    <Content Include="MultiView.aspx" />
     <Content Include="PageLifeCycle.aspx" />
     <Content Include="PostBackDropDownEx.aspx" />
     <Content Include="RadioButton.aspx" />
@@ -182,6 +210,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdoratorControl.aspx.cs">
+      <DependentUpon>AdoratorControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdoratorControl.aspx.designer.cs">
+      <DependentUpon>AdoratorControl.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ApplicationState1.aspx.cs">
       <DependentUpon>ApplicationState1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -219,6 +254,13 @@
     <Compile Include="ButtonType.aspx.designer.cs">
       <DependentUpon>ButtonType.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CalendarControl.aspx.cs">
+      <DependentUpon>CalendarControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CalendarControl.aspx.designer.cs">
+      <DependentUpon>CalendarControl.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CascadingDropDownList.aspx.cs">
       <DependentUpon>CascadingDropDownList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -246,6 +288,41 @@
     </Compile>
     <Compile Include="CheckBoxSelectAndDeselectAll.aspx.designer.cs">
       <DependentUpon>CheckBoxSelectAndDeselectAll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContextHandler1.aspx.cs">
+      <DependentUpon>ContextHandler1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContextHandler1.aspx.designer.cs">
+      <DependentUpon>ContextHandler1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContextHandler2.aspx.cs">
+      <DependentUpon>ContextHandler2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContextHandler2.aspx.designer.cs">
+      <DependentUpon>ContextHandler2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrossPagePosting.aspx.cs">
+      <DependentUpon>CrossPagePosting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrossPagePosting.aspx.designer.cs">
+      <DependentUpon>CrossPagePosting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrossPagePosting1.aspx.cs">
+      <DependentUpon>CrossPagePosting1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrossPagePosting1.aspx.designer.cs">
+      <DependentUpon>CrossPagePosting1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomValidator.aspx.cs">
+      <DependentUpon>CustomValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomValidator.aspx.designer.cs">
+      <DependentUpon>CustomValidator.aspx</DependentUpon>
     </Compile>
     <Compile Include="DropDown.aspx.cs">
       <DependentUpon>DropDown.aspx</DependentUpon>
@@ -275,8 +352,22 @@
     <Compile Include="FetchingTextforDropDown.aspx.designer.cs">
       <DependentUpon>FetchingTextforDropDown.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FileUpload.aspx.cs">
+      <DependentUpon>FileUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FileUpload.aspx.designer.cs">
+      <DependentUpon>FileUpload.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Hiddenfield.aspx.cs">
+      <DependentUpon>Hiddenfield.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hiddenfield.aspx.designer.cs">
+      <DependentUpon>Hiddenfield.aspx</DependentUpon>
     </Compile>
     <Compile Include="isPostBack.aspx.cs">
       <DependentUpon>isPostBack.aspx</DependentUpon>
@@ -285,12 +376,54 @@
     <Compile Include="isPostBack.aspx.designer.cs">
       <DependentUpon>isPostBack.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ListBox.aspx.cs">
+      <DependentUpon>ListBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListBox.aspx.designer.cs">
+      <DependentUpon>ListBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListControl.aspx.cs">
+      <DependentUpon>ListControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListControl.aspx.designer.cs">
+      <DependentUpon>ListControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MultiView.aspx.cs">
+      <DependentUpon>MultiView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MultiView.aspx.designer.cs">
+      <DependentUpon>MultiView.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PageLifeCycle.aspx.cs">
       <DependentUpon>PageLifeCycle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="PageLifeCycle.aspx.designer.cs">
       <DependentUpon>PageLifeCycle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PanelControl.aspx.cs">
+      <DependentUpon>PanelControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PanelControl.aspx.designer.cs">
+      <DependentUpon>PanelControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PanelControlDynamicallyControl.aspx.cs">
+      <DependentUpon>PanelControlDynamicallyControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PanelControlDynamicallyControl.aspx.designer.cs">
+      <DependentUpon>PanelControlDynamicallyControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PanelControlNot.aspx.cs">
+      <DependentUpon>PanelControlNot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PanelControlNot.aspx.designer.cs">
+      <DependentUpon>PanelControlNot.aspx</DependentUpon>
     </Compile>
     <Compile Include="PostBackDropDownEx.aspx.cs">
       <DependentUpon>PostBackDropDownEx.aspx</DependentUpon>
@@ -300,6 +433,20 @@
       <DependentUpon>PostBackDropDownEx.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryString1.aspx.cs">
+      <DependentUpon>QueryString1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QueryString1.aspx.designer.cs">
+      <DependentUpon>QueryString1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QueryString2.aspx.cs">
+      <DependentUpon>QueryString2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QueryString2.aspx.designer.cs">
+      <DependentUpon>QueryString2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="RadioButton.aspx.cs">
       <DependentUpon>RadioButton.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -307,12 +454,54 @@
     <Compile Include="RadioButton.aspx.designer.cs">
       <DependentUpon>RadioButton.aspx</DependentUpon>
     </Compile>
+    <Compile Include="RangeValidator.aspx.cs">
+      <DependentUpon>RangeValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RangeValidator.aspx.designer.cs">
+      <DependentUpon>RangeValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RequiredFieldValidator.aspx.cs">
+      <DependentUpon>RequiredFieldValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RequiredFieldValidator.aspx.designer.cs">
+      <DependentUpon>RequiredFieldValidator.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ServerControl.aspx.cs">
       <DependentUpon>ServerControl.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ServerControl.aspx.designer.cs">
       <DependentUpon>ServerControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ServerExecute.aspx.cs">
+      <DependentUpon>ServerExecute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServerExecute.aspx.designer.cs">
+      <DependentUpon>ServerExecute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ServerExecute1.aspx.cs">
+      <DependentUpon>ServerExecute1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServerExecute1.aspx.designer.cs">
+      <DependentUpon>ServerExecute1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ServerTransfer.aspx.cs">
+      <DependentUpon>ServerTransfer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServerTransfer.aspx.designer.cs">
+      <DependentUpon>ServerTransfer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ServerTransfer1.aspx.cs">
+      <DependentUpon>ServerTransfer1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServerTransfer1.aspx.designer.cs">
+      <DependentUpon>ServerTransfer1.aspx</DependentUpon>
     </Compile>
     <Compile Include="SessionState1.aspx.cs">
       <DependentUpon>SessionState1.aspx</DependentUpon>
@@ -349,6 +538,27 @@
     <Compile Include="TextBox.aspx.designer.cs">
       <DependentUpon>TextBox.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UseSumitBehaviourProperty.aspx.cs">
+      <DependentUpon>UseSumitBehaviourProperty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UseSumitBehaviourProperty.aspx.designer.cs">
+      <DependentUpon>UseSumitBehaviourProperty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationGroup.aspx.cs">
+      <DependentUpon>ValidationGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidationGroup.aspx.designer.cs">
+      <DependentUpon>ValidationGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationSummary.aspx.cs">
+      <DependentUpon>ValidationSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ValidationSummary.aspx.designer.cs">
+      <DependentUpon>ValidationSummary.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewState1.aspx.cs">
       <DependentUpon>ViewState1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -376,6 +586,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WizardControl.aspx.cs">
+      <DependentUpon>WizardControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WizardControl.aspx.designer.cs">
+      <DependentUpon>WizardControl.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
