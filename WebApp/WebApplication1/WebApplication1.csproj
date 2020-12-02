@@ -110,7 +110,10 @@
     <Content Include="Application_Session_State.aspx" />
     <Content Include="ButtonCommand.aspx" />
     <Content Include="ButtonType.aspx" />
+    <Content Include="CascadingDropDownList.aspx" />
     <Content Include="CheckBox.aspx" />
+    <Content Include="CheckBox1.aspx" />
+    <Content Include="CheckBoxSelectAndDeselectAll.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -121,6 +124,7 @@
     <Content Include="DropDownfromDB.aspx" />
     <Content Include="DropDownFromXML.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="FetchingTextforDropDown.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -215,12 +219,33 @@
     <Compile Include="ButtonType.aspx.designer.cs">
       <DependentUpon>ButtonType.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CascadingDropDownList.aspx.cs">
+      <DependentUpon>CascadingDropDownList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CascadingDropDownList.aspx.designer.cs">
+      <DependentUpon>CascadingDropDownList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CheckBox.aspx.cs">
       <DependentUpon>CheckBox.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="CheckBox.aspx.designer.cs">
       <DependentUpon>CheckBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckBox1.aspx.cs">
+      <DependentUpon>CheckBox1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckBox1.aspx.designer.cs">
+      <DependentUpon>CheckBox1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckBoxSelectAndDeselectAll.aspx.cs">
+      <DependentUpon>CheckBoxSelectAndDeselectAll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckBoxSelectAndDeselectAll.aspx.designer.cs">
+      <DependentUpon>CheckBoxSelectAndDeselectAll.aspx</DependentUpon>
     </Compile>
     <Compile Include="DropDown.aspx.cs">
       <DependentUpon>DropDown.aspx</DependentUpon>
@@ -242,6 +267,13 @@
     </Compile>
     <Compile Include="DropDownFromXML.aspx.designer.cs">
       <DependentUpon>DropDownFromXML.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FetchingTextforDropDown.aspx.cs">
+      <DependentUpon>FetchingTextforDropDown.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FetchingTextforDropDown.aspx.designer.cs">
+      <DependentUpon>FetchingTextforDropDown.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
