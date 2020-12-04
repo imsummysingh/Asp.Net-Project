@@ -110,9 +110,13 @@
     <Content Include="ApplicationState1.aspx" />
     <Content Include="ApplicationState2.aspx" />
     <Content Include="Application_Session_State.aspx" />
+    <Content Include="AutoEventWireUp.aspx" />
     <Content Include="ButtonCommand.aspx" />
     <Content Include="ButtonType.aspx" />
+    <Content Include="Caching1.aspx" />
+    <Content Include="caching2.aspx" />
     <Content Include="CalendarControl.aspx" />
+    <Content Include="CalendarUserControl.ascx" />
     <Content Include="CascadingDropDownList.aspx" />
     <Content Include="CheckBox.aspx" />
     <Content Include="CheckBox1.aspx" />
@@ -124,6 +128,9 @@
     <Content Include="Content\Site.css" />
     <Content Include="ContextHandler1.aspx" />
     <Content Include="ContextHandler2.aspx" />
+    <Content Include="Cookies1.aspx" />
+    <Content Include="Cookies2.aspx" />
+    <Content Include="Countries.xml" />
     <Content Include="CrossPagePosting.aspx" />
     <Content Include="CrossPagePosting1.aspx" />
     <Content Include="CustomValidator.aspx" />
@@ -131,6 +138,7 @@
     <Content Include="DropDownFile.xml" />
     <Content Include="DropDownfromDB.aspx" />
     <Content Include="DropDownFromXML.aspx" />
+    <Content Include="ExceptionHandling1.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="FetchingTextforDropDown.aspx" />
     <Content Include="FileUpload.aspx" />
@@ -155,6 +163,9 @@
     <Content Include="ServerExecute1.aspx" />
     <Content Include="ServerTransfer.aspx" />
     <Content Include="ServerTransfer1.aspx" />
+    <Content Include="Session1.aspx" />
+    <Content Include="Session2.aspx" />
+    <Content Include="UserControl.aspx" />
     <Content Include="UseSumitBehaviourProperty.aspx" />
     <Content Include="ValidationGroup.aspx" />
     <Content Include="ValidationSummary.aspx" />
@@ -240,6 +251,13 @@
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="AutoEventWireUp.aspx.cs">
+      <DependentUpon>AutoEventWireUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AutoEventWireUp.aspx.designer.cs">
+      <DependentUpon>AutoEventWireUp.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ButtonCommand.aspx.cs">
       <DependentUpon>ButtonCommand.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -254,12 +272,33 @@
     <Compile Include="ButtonType.aspx.designer.cs">
       <DependentUpon>ButtonType.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Caching1.aspx.cs">
+      <DependentUpon>Caching1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Caching1.aspx.designer.cs">
+      <DependentUpon>Caching1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="caching2.aspx.cs">
+      <DependentUpon>caching2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="caching2.aspx.designer.cs">
+      <DependentUpon>caching2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CalendarControl.aspx.cs">
       <DependentUpon>CalendarControl.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="CalendarControl.aspx.designer.cs">
       <DependentUpon>CalendarControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarUserControl.ascx.cs">
+      <DependentUpon>CalendarUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CalendarUserControl.ascx.designer.cs">
+      <DependentUpon>CalendarUserControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="CascadingDropDownList.aspx.cs">
       <DependentUpon>CascadingDropDownList.aspx</DependentUpon>
@@ -303,6 +342,20 @@
     <Compile Include="ContextHandler2.aspx.designer.cs">
       <DependentUpon>ContextHandler2.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Cookies1.aspx.cs">
+      <DependentUpon>Cookies1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cookies1.aspx.designer.cs">
+      <DependentUpon>Cookies1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cookies2.aspx.cs">
+      <DependentUpon>Cookies2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cookies2.aspx.designer.cs">
+      <DependentUpon>Cookies2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CrossPagePosting.aspx.cs">
       <DependentUpon>CrossPagePosting.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -344,6 +397,13 @@
     </Compile>
     <Compile Include="DropDownFromXML.aspx.designer.cs">
       <DependentUpon>DropDownFromXML.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExceptionHandling1.aspx.cs">
+      <DependentUpon>ExceptionHandling1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExceptionHandling1.aspx.designer.cs">
+      <DependentUpon>ExceptionHandling1.aspx</DependentUpon>
     </Compile>
     <Compile Include="FetchingTextforDropDown.aspx.cs">
       <DependentUpon>FetchingTextforDropDown.aspx</DependentUpon>
@@ -503,6 +563,20 @@
     <Compile Include="ServerTransfer1.aspx.designer.cs">
       <DependentUpon>ServerTransfer1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Session1.aspx.cs">
+      <DependentUpon>Session1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Session1.aspx.designer.cs">
+      <DependentUpon>Session1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Session2.aspx.cs">
+      <DependentUpon>Session2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Session2.aspx.designer.cs">
+      <DependentUpon>Session2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SessionState1.aspx.cs">
       <DependentUpon>SessionState1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -537,6 +611,13 @@
     </Compile>
     <Compile Include="TextBox.aspx.designer.cs">
       <DependentUpon>TextBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl.aspx.cs">
+      <DependentUpon>UserControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControl.aspx.designer.cs">
+      <DependentUpon>UserControl.aspx</DependentUpon>
     </Compile>
     <Compile Include="UseSumitBehaviourProperty.aspx.cs">
       <DependentUpon>UseSumitBehaviourProperty.aspx</DependentUpon>
