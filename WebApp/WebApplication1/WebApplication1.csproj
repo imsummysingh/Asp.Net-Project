@@ -115,6 +115,7 @@
     <Content Include="ButtonType.aspx" />
     <Content Include="Caching1.aspx" />
     <Content Include="caching2.aspx" />
+    <Content Include="CalculatorWebServices.asmx" />
     <Content Include="CalendarControl.aspx" />
     <Content Include="CalendarUserControl.ascx" />
     <Content Include="CascadingDropDownList.aspx" />
@@ -152,6 +153,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="MasterPageWeb.aspx" />
     <Content Include="PanelControl.aspx" />
     <Content Include="PanelControlDynamicallyControl.aspx" />
     <Content Include="PanelControlNot.aspx" />
@@ -165,11 +167,14 @@
     <Content Include="ServerTransfer1.aspx" />
     <Content Include="Session1.aspx" />
     <Content Include="Session2.aspx" />
+    <Content Include="UploadDownloadFiles.aspx" />
     <Content Include="UserControl.aspx" />
     <Content Include="UseSumitBehaviourProperty.aspx" />
     <Content Include="ValidationGroup.aspx" />
     <Content Include="ValidationSummary.aspx" />
+    <Content Include="WebForm1.aspx" />
     <Content Include="WizardControl.aspx" />
+    <Content Include="MasterPage.Master" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Hiddenfield.aspx" />
     <Content Include="isPostBack.aspx" />
@@ -285,6 +290,10 @@
     </Compile>
     <Compile Include="caching2.aspx.designer.cs">
       <DependentUpon>caching2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CalculatorWebServices.asmx.cs">
+      <DependentUpon>CalculatorWebServices.asmx</DependentUpon>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="CalendarControl.aspx.cs">
       <DependentUpon>CalendarControl.aspx</DependentUpon>
@@ -450,6 +459,20 @@
     <Compile Include="ListControl.aspx.designer.cs">
       <DependentUpon>ListControl.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPageWeb.aspx.cs">
+      <DependentUpon>MasterPageWeb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPageWeb.aspx.designer.cs">
+      <DependentUpon>MasterPageWeb.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MultiView.aspx.cs">
       <DependentUpon>MultiView.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -612,6 +635,13 @@
     <Compile Include="TextBox.aspx.designer.cs">
       <DependentUpon>TextBox.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UploadDownloadFiles.aspx.cs">
+      <DependentUpon>UploadDownloadFiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadDownloadFiles.aspx.designer.cs">
+      <DependentUpon>UploadDownloadFiles.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UserControl.aspx.cs">
       <DependentUpon>UserControl.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -667,6 +697,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="WizardControl.aspx.cs">
       <DependentUpon>WizardControl.aspx</DependentUpon>

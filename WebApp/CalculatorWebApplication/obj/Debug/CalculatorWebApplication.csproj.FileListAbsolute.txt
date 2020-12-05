@@ -1,0 +1,2 @@
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\CalculatorWebApplication\obj\Debug\CalculatorWebApplication.csprojAssemblyReference.cache
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\CalculatorWebApplication\obj\Debug\CalculatorWebApplication.csproj.CoreCompileInputs.cache
