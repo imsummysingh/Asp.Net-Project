@@ -15,11 +15,11 @@ namespace CalculatorWebApplication
         }
         protected void btnAdd_Click(object sender, EventArgs e)
         {
-            CalculatorService.CalculatorWebServicesSoapClient client =
-                new CalculatorService.CalculatorWebServicesSoapClient();
-            int result = client.Add(Convert.ToInt32(txtFirstNumber.Text),
-                Convert.ToInt32(txtSecondNumber.Text));
-            lblResult.Text = result.ToString();
+            //CalculatorService.CalculatorWebServicesSoapClient client =
+            //    new CalculatorService.CalculatorWebServicesSoapClient();
+            //int result = client.Add(Convert.ToInt32(txtFirstNumber.Text),
+            //    Convert.ToInt32(txtSecondNumber.Text));
+            //lblResult.Text = result.ToString();
         }
     }
 }

@@ -1,0 +1,11 @@
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\HelloServiceHost\bin\Debug\HelloServiceHost.exe.config
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\HelloServiceHost\bin\Debug\HelloServiceHost.exe
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\HelloServiceHost\bin\Debug\HelloServiceHost.pdb
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\HelloServiceHost\bin\Debug\HelloService.dll
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\HelloServiceHost\bin\Debug\HelloService.pdb
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\HelloServiceHost\bin\Debug\HelloService.dll.config
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\HelloServiceHost\obj\Debug\HelloServiceHost.csprojAssemblyReference.cache
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\HelloServiceHost\obj\Debug\HelloServiceHost.csproj.CoreCompileInputs.cache
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\HelloServiceHost\obj\Debug\HelloServiceHost.csproj.CopyComplete
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\HelloServiceHost\obj\Debug\HelloServiceHost.exe
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\HelloServiceHost\obj\Debug\HelloServiceHost.pdb

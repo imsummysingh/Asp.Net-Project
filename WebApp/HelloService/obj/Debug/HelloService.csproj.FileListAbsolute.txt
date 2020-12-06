@@ -1,0 +1,6 @@
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\HelloService\bin\Debug\HelloService.dll.config
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\HelloService\bin\Debug\HelloService.dll
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\HelloService\bin\Debug\HelloService.pdb
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\HelloService\obj\Debug\HelloService.csproj.CoreCompileInputs.cache
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\HelloService\obj\Debug\HelloService.dll
+C:\Users\ssingh687\source\repos\Asp.Net-Project\WebApp\HelloService\obj\Debug\HelloService.pdb
